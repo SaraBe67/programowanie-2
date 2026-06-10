@@ -15,7 +15,6 @@ Analiza została przeprowadzona na zbiorze danych z pliku coping_with_stress.csv
    * academic_performance: Wyniki w nauce / oceny 0-100 ,
 
    b) Czynniki psychologiczne i samopoczucie:
-    
     * stress_level: Poziom stresu (zmienna docelowa / objaśniana) - 0-10,
     * anxiety_score: Wynik określający poziom lęku - 0-10,
     * depression_score: Wynik określający poziom depresji - 0-10,
