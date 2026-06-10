@@ -1,9 +1,13 @@
 # programowanie-2
 1. **Cel analizy**
+
 Głównym celem projektu jest przewidywanie poziomu stresu u studentów. Analiza bierze pod uwagę czynniki stresogenne typowe dla środowiska akademickiego oraz konstruktywne i niekonstruktywne sposoby radzenia sobie ze stresem. Finalnym zadaniem kodu jest zbudowanie i ocena modelu uczenia maszynowego, który najlepiej prognozuje ten poziom.
 
+
 2. **Opis danych**
+
 Analiza została przeprowadzona na zbiorze danych z pliku coping_with_stress.csv, zawierającym 200 640 wierszy i 15 kolumn. Każdy wiersz reprezentuje pojedynczego studenta, a kolumny opisują następujące cechy:
+ 
   a) Dane demograficzne i akademickie:
    * age: Wiek studenta,
    * academic_year: Rok studiów - od 1 do 4,
