@@ -67,3 +67,6 @@ Interpretacje wykresów zostaną dopisane później, jeśli prowadzący wyrazi t
 
 Najsilniej skorelowane ze stresem - lęk, wypalenie, depresja. Najmniej skorelowane - spanie, aktywność fizyczna, (screen time?) ORAZ wpsarcie bliskich.
 
+**Przygotowanie danych do nauki modelu**
+
+Dane numeryczne udało się pomyślnie przekształcić tak, aby nie zgubić żadnych informacji (wynik wierszy i kolumn zgadza się z wielkościa zbioru treningowego).
