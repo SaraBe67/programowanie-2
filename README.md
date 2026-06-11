@@ -70,3 +70,7 @@ Najsilniej skorelowane ze stresem - lęk, wypalenie, depresja. Najmniej skorelow
 ### **Przygotowanie danych do nauki modelu**
 
 Dane numeryczne udało się pomyślnie przekształcić tak, aby nie zgubić żadnych informacji (wynik wierszy i kolumn zgadza się z wielkościa zbioru treningowego).
+
+**Ocena na zbiorze testowym**
+
+Różnica między błędem na zbiorze treningowym (0.317) a testowym (0.725) wynika z przeuczenia (overfittingu) algorytmu Random Forest. Model zbyt mocno dopasował się do szumu w danych treningowych. Ostateczny wynik na zbiorze testowym (0.725) pokazuje realną siłę generalizacji modelu i jest on bardzo zbliżony do wyników Regresji Liniowej (0.719). Potwierdza to, że dla tego zbioru danych prostszy model liniowy ma taką samą moc predykcyjną na nowych obiektach, co skomplikowany Las Losowy.
