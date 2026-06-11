@@ -50,7 +50,7 @@ Z analizy obu wykresów wyłania się obraz studenta, który znajduje się pod s
 - Brak wartości odstających (Outliers).
 - **Wyzwanie dla korelacji liniowych**: Ponieważ zmienne losowe z rozkładów jednostajnych bez naturalnego szumu potrafią zachowywać się bardzo matematycznie, modele nieliniowe mogą na tych danych osiągać podejrzanie dobre wyniki, łatwo mapując zależności.
 
-W wyniku stratyfikacji do zbioru treningowego trafiło 160512 odpowiedzi (wierszy). Uwzględniono 14 zmiennych (kolumny; X) - bez zmiennej "stress_level". Zbiór testowy ma 40 128 wierszy.
+W wyniku **stratyfikacji** do zbioru treningowego trafiło 160512 odpowiedzi (wierszy). Uwzględniono 14 zmiennych (kolumny; X) - bez zmiennej "stress_level". Zbiór testowy ma 40 128 wierszy.
 
 **Heatmapa "Relatywne nasilenie czynników na stan psychiczny studentów" (macierz korelacji)**
 - Presja wywołana egzaminami silnie (dodatnio) wpływa na poziom stresu, tak samo obawy związane z wydatkami.`
