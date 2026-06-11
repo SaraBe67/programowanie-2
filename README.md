@@ -49,3 +49,21 @@ Z analizy obu wykresów wyłania się obraz studenta, który znajduje się pod s
 - **Brak problemu z klasami rzadkimi** (Imbalance): Ponieważ stress_level ma płaski rozkład, Twój model uczy się na tak samo licznej reprezentacji osób o niskim, średnim, jak i wysokim stresie. Model nie będzie "faworyzował" żadnej grupy.
 - Brak wartości odstających (Outliers).
 - **Wyzwanie dla korelacji liniowych**: Ponieważ zmienne losowe z rozkładów jednostajnych bez naturalnego szumu potrafią zachowywać się bardzo matematycznie, modele nieliniowe mogą na tych danych osiągać podejrzanie dobre wyniki, łatwo mapując zależności.
+
+W wyniku stratyfikacji do zbioru treningowego trafiło 160512 odpowiedzi (wierszy). Uwzględniono 14 zmiennych (kolumny; X) - bez zmiennej "stress_level". Zbiór testowy ma 40 128 wierszy.
+
+**Heatmapa "Relatywne nasilenie czynników na stan psychiczny studentów" (macierz korelacji)**
+- Presja wywołana egzaminami silnie (dodatnio) wpływa na poziom stresu, tak samo obawy związane z wydatkami.`
+- Poziom stresu wiąże się z aktywnością fizyczną negatywnie.
+
+**Tabela macierz korelacji**
+Poziom stresu u studentów jest nierozerwalnie i bardzo silnie związany z ich ogólnym stanem zdrowia psychicznego (lękiem, depresją i wypaleniem).
+
+**Wykres punktowy macierzy korelacji**
+
+nie widzę
+
+Interpretacje wykresów zostaną dopisane później, jeśli prowadzący wyrazi taką wolę.
+
+Najsilniej skorelowane ze stresem - lęk, wypalenie, depresja. Najmniej skorelowane - spanie, aktywność fizyczna, (screen time?) ORAZ wpsarcie bliskich.
+
